@@ -14,6 +14,7 @@
 		FF0743522410E44800FD3A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0743512410E44800FD3A3D /* Assets.xcassets */; };
 		FF0743552410E44800FD3A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0743532410E44800FD3A3D /* LaunchScreen.storyboard */; };
 		FF07435D2410E49C00FD3A3D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF07435C2410E49C00FD3A3D /* SecondViewController.swift */; };
+		FF07438124123CFD00FD3A3D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF07438024123CFD00FD3A3D /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FF0743542410E44800FD3A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF0743562410E44800FD3A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF07435C2410E49C00FD3A3D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FF07438024123CFD00FD3A3D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				FF0743482410E44700FD3A3D /* AppDelegate.swift */,
 				FF07434A2410E44700FD3A3D /* SceneDelegate.swift */,
+				FF07438024123CFD00FD3A3D /* Protocols.swift */,
 				FF07434C2410E44700FD3A3D /* FirstViewController.swift */,
 				FF07435C2410E49C00FD3A3D /* SecondViewController.swift */,
 				FF07434E2410E44700FD3A3D /* Main.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF07438124123CFD00FD3A3D /* Protocols.swift in Sources */,
 				FF07435D2410E49C00FD3A3D /* SecondViewController.swift in Sources */,
 				FF07434D2410E44700FD3A3D /* FirstViewController.swift in Sources */,
 				FF0743492410E44700FD3A3D /* AppDelegate.swift in Sources */,

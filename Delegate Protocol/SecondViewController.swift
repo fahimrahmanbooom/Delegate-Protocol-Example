@@ -14,9 +14,7 @@
 
 import UIKit
 
-protocol ChangeColorDelegate {
-    func buttonTappedForColorChange(color: UIColor)
-}
+
 
 class SecondViewController: UIViewController {
     
